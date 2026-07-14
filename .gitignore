@@ -1,0 +1,82 @@
+# =====================================
+# SUPPORT BOT API
+# =====================================
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Python Cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment Variables
+.env
+
+# Django
+db.sqlite3
+*.log
+
+# Static & Media
+media/
+staticfiles/
+
+# Test & Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Type Checking / Linting
+.mypy_cache/
+.ruff_cache/
+
+# Python Build
+build/
+dist/
+*.egg-info/
+
+# =====================================
+# SUPPORT BOT APP
+# =====================================
+
+support-bot-app/node_modules/
+support-bot-app/dist/
+support-bot-app/dist-ssr/
+
+# Logs
+support-bot-app/logs/
+support-bot-app/npm-debug.log*
+support-bot-app/yarn-debug.log*
+support-bot-app/yarn-error.log*
+support-bot-app/pnpm-debug.log*
+support-bot-app/lerna-debug.log*
+
+# Local Environment Files
+support-bot-app/*.local
+
+# =====================================
+# IDEs
+# =====================================
+
+.vscode/
+.idea/
+
+# =====================================
+# Operating System Files
+# =====================================
+
+.DS_Store
+Thumbs.db
+*~
+
+# =====================================
+# Miscellaneous
+# =====================================
+
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
