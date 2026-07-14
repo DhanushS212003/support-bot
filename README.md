@@ -1,18 +1,26 @@
-# Support Bot
+# WonderWorld Support Bot
 
-A full-stack AI-powered support chatbot for WonderWorld Theme Park.
+WonderWorld Support Bot is a full-stack AI-powered customer support application built for a fictional theme park named **WonderWorld**. It enables visitors to ask questions about the park in natural language and receive accurate, conversational responses powered by Google's Gemini AI.
 
-## Tech Stack
+### Features
 
-- React
-- TypeScript
-- Tailwind CSS
-- Django
-- Django REST Framework
-- Google Gemini
+* Interactive chat interface with a modern and responsive UI
+* AI-powered responses using Google Gemini
+* Park-specific knowledge base for accurate answers
 
-## Project Structure
+### Technology Stack
 
-support-bot/
-├── support-bot-app/
-└── support-bot-api/
+**Frontend**
+
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* Axios
+
+**Backend**
+
+* Python
+* Django
+* Django REST Framework
+* Google GenAI SDK
